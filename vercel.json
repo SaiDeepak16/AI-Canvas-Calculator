@@ -11,11 +11,5 @@
         "dest": "backend/main.py"
       }
     ],
-    "env": {
-      "GEMINI_API_KEY": "@gemini_api_key",
-      "SERVER_URL": "your-server-url",
-      "PORT": "your-port-number",
-      "ENV": "production"
-    }
   }
   
