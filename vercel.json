@@ -1,0 +1,21 @@
+{
+    "builds": [
+      {
+        "src": "backend/main.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "backend/main.py"
+      }
+    ],
+    "env": {
+      "GEMINI_API_KEY": "@gemini_api_key",
+      "SERVER_URL": "your-server-url",
+      "PORT": "your-port-number",
+      "ENV": "production"
+    }
+  }
+  
