@@ -3,3 +3,4 @@ uvicorn
 google.generativeai
 python-dotenv  # For loading environment variables
 pydantic  # For data validation and settings management
+Pillow
